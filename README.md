@@ -10,19 +10,3 @@ Ce projet permet de prédire la classe d'une image (par exemple, un avion, un ch
 - **PIL (Pillow)** : Bibliothèque pour le traitement des images
 - **NumPy** : Manipulation des données sous forme de tableaux
 
-## 📄 Fichiers nécessaires
-- **`baseline_mariya.keras`** : Le modèle pré-entraîné pour la classification des images. Ce fichier doit être présent dans le même répertoire que ce code ou spécifié correctement.
-- **`logo.png`** et **`placeholder_image.png`** : Fichiers d'images utilisés dans l'interface graphique.
-
-## ⚙️ Fonctionnalités du projet
-
-1. **Chargement du modèle** : Un modèle pré-entraîné est chargé à l'aide de Keras (`baseline_mariya.keras`).
-2. **Prédiction d'images** : L'utilisateur sélectionne une image, et le modèle prédit la classe de l'image parmi plusieurs catégories (avion, chat, chien, etc.).
-3. **Affichage des résultats** : L'interface GUI affiche l'image, la prédiction et la probabilité associée.
-
-## 🚀 Installation
-
-### 1. Clone ce repository :
-```bash
-git clone https://github.com/ton-utilisateur/ton-projet.git
-cd ton-projet
